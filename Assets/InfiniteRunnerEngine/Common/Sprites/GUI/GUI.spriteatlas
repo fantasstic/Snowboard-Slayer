@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GUI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6c3f4d8a9ac7024449d5af48876cbb85, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300002, guid: c08163118d7eba340905d9eadc81300c, type: 3}
+  - {fileID: 21300000, guid: c08163118d7eba340905d9eadc81300c, type: 3}
+  - {fileID: 21300000, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300002, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300026, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300004, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300024, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300006, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300022, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300008, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300020, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300010, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300012, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300014, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300016, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300028, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300018, guid: fb210fa270796f34a999cb8a678171bb, type: 3}
+  - {fileID: 21300006, guid: 1bb695f47acefd64abde86c247a4abed, type: 3}
+  - {fileID: 21300000, guid: 1bb695f47acefd64abde86c247a4abed, type: 3}
+  - {fileID: 21300002, guid: 1bb695f47acefd64abde86c247a4abed, type: 3}
+  - {fileID: 21300008, guid: 1bb695f47acefd64abde86c247a4abed, type: 3}
+  - {fileID: 21300000, guid: 433ac56b84c243f40a56deef80058c3c, type: 3}
+  - {fileID: 21300000, guid: 48ba751c7c01d6e4fbbf18d870de6ed9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hearts_1
+  - hearts_0
+  - button-a_0
+  - button-a_1
+  - button-a_13
+  - button-a_2
+  - button-a_12
+  - button-a_3
+  - button-a_11
+  - button-a_4
+  - button-a_10
+  - button-a_5
+  - button-a_6
+  - button-a_7
+  - button-a_8
+  - button-a_14
+  - button-a_9
+  - startscreen_5
+  - startscreen_0
+  - startscreen_1
+  - startscreen_9
+  - splash-more-mountains_0
+  - pause
+  m_RenderDataMap: {}
+  m_Tag: GUI
+  m_IsVariant: 0

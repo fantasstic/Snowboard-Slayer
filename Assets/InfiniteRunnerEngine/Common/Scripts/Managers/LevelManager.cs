@@ -403,7 +403,7 @@ namespace MoreMountains.InfiniteRunnerEngine
 
 	        if (string.IsNullOrEmpty(levelName))
 			{
-				MMSceneLoadingManager.LoadScene("StartScreen");
+				MMSceneLoadingManager.LoadScene("LevelSelection");
 			}
 			else
 			{

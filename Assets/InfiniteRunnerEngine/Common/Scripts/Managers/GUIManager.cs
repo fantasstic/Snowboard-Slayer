@@ -135,7 +135,7 @@ namespace MoreMountains.InfiniteRunnerEngine
 	        Text gameOverScreenTextObject = GameOverScreen.transform.Find("GameOverScreenText").GetComponent<Text>();
 	        if (gameOverScreenTextObject!= null)
 	        {
-	            gameOverScreenTextObject.text="GAME OVER\nYOUR SCORE : "+Mathf.Round(GameManager.Instance.Points);
+	            gameOverScreenTextObject.text="GAME OVER";
 	        }
 		}
 			
