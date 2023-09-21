@@ -7,6 +7,7 @@ namespace MoreMountains.InfiniteRunnerEngine
     public class HillRider : Jumper
     {
         private GUIManager _guiManager;
+        private GameObject _coin;
 
         public float Acceleration = 100f;
         public float MaxSpeed = 8f;
@@ -244,8 +245,16 @@ namespace MoreMountains.InfiniteRunnerEngine
             {
                 AddScore();
                 collision.gameObject.SetActive(false);
-
+                _coin = collision.gameObject;
+                Invoke("ActiveCoin", 5f);
+                /*new WaitForSeconds(4f);
+                collision.gameObject.SetActive(true);*/
             }
+        }
+
+        private void ActiveCoin()
+        {
+            _coin.SetActive(true);
         }
 
     }

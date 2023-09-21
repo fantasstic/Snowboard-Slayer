@@ -7,7 +7,7 @@ public class MenuUI : MonoBehaviour
 {
     [SerializeField] private AudioSource _music, _clickSound;
     [SerializeField] private Text _scoreText;
-    [SerializeField] private Image _musicImage, _soundImage;
+    [SerializeField] private Image _musicImage, _soundImage, _vibrImage;
     [SerializeField] private Sprite _offMusic, _onMusic, _offSound, _onSound;
     [SerializeField] private Canvas _canvas;
     [SerializeField] private GameObject _settings;
@@ -28,6 +28,13 @@ public class MenuUI : MonoBehaviour
             _clickSound.mute = false;
             _soundImage.sprite = _onMusic;
             PlayerPrefs.SetString("Sound", "Yes");
+
+        }
+
+        if (!PlayerPrefs.HasKey("Vibr"))
+        {
+            _vibrImage.sprite = _onMusic;
+            PlayerPrefs.SetString("Vibr", "Yes");
 
         }
 
@@ -52,6 +59,15 @@ public class MenuUI : MonoBehaviour
         {
             _clickSound.mute = true;
             _soundImage.sprite = _offMusic;
+        }
+
+        if (PlayerPrefs.GetString("Vibr") == "Yes")
+        {
+            _vibrImage.sprite = _onMusic;
+        }
+        else
+        {
+            _vibrImage.sprite = _offMusic;
         }
     }
 
@@ -86,6 +102,21 @@ public class MenuUI : MonoBehaviour
             _clickSound.mute = true;
             PlayerPrefs.SetString("Sound", "No");
             _soundImage.sprite = _offMusic;
+        }
+    }
+
+    public void VibrSwitch()
+    {
+        SoundClick();
+        if (PlayerPrefs.GetString("Vibr") == "No")
+        {
+            PlayerPrefs.SetString("Vibr", "Yes");
+            _vibrImage.sprite = _onMusic;
+        }
+        else
+        {
+            PlayerPrefs.SetString("Vibr", "No");
+            _vibrImage.sprite = _offMusic;
         }
     }
 
